@@ -27,45 +27,9 @@
 
 ### I made use of a linear regression model in this prediction of the Exam sores outcome, below is the summary of the model's predictive outcome. More details are explained after the result
 
-Call:
-lm(formula = Exam_Score ~ ., data = student2)
+![image](https://github.com/user-attachments/assets/38bdc6d7-2a4d-4d72-9374-8020d73d89c2)
+![image](https://github.com/user-attachments/assets/f4281943-c0aa-4c50-be72-27d11bb145be)
 
-Residuals:
-    Min      1Q  Median      3Q     Max 
--1.2029 -0.4300 -0.1720  0.0842 29.9843 
-
-Coefficients:
-                                      Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                          41.828571   0.338117 123.710  < 2e-16 ***
-Hours_Studied                         0.294871   0.004336  68.009  < 2e-16 ***
-Attendance                            0.198778   0.002250  88.363  < 2e-16 ***
-Parental_InvolvementLow              -1.982918   0.075370 -26.309  < 2e-16 ***
-Parental_InvolvementMedium           -1.062422   0.060514 -17.557  < 2e-16 ***
-Access_to_ResourcesLow               -2.063287   0.075113 -27.469  < 2e-16 ***
-Access_to_ResourcesMedium            -1.009621   0.060070 -16.807  < 2e-16 ***
-Extracurricular_ActivitiesYes         0.561980   0.052940  10.615  < 2e-16 ***
-Sleep_Hours                          -0.001982   0.017682  -0.112    0.911    
-Previous_Scores                       0.048875   0.001805  27.071  < 2e-16 ***
-Motivation_LevelLow                  -1.061976   0.075314 -14.101  < 2e-16 ***
-Motivation_LevelMedium               -0.542306   0.068506  -7.916 2.87e-15 ***
-Internet_AccessYes                    0.924690   0.097929   9.442  < 2e-16 ***
-Tutoring_Sessions                     0.498154   0.021020  23.699  < 2e-16 ***
-Family_IncomeLow                     -1.085580   0.071820 -15.115  < 2e-16 ***
-Family_IncomeMedium                  -0.590632   0.071941  -8.210 2.66e-16 ***
-Teacher_QualityLow                   -1.057501   0.094363 -11.207  < 2e-16 ***
-Teacher_QualityMedium                -0.549047   0.058083  -9.453  < 2e-16 ***
-School_TypePublic                     0.032657   0.056399   0.579    0.563    
-Peer_InfluenceNeutral                 0.522247   0.070434   7.415 1.38e-13 ***
-Peer_InfluencePositive                1.026952   0.070087  14.653  < 2e-16 ***
-Physical_Activity                     0.186670   0.025278   7.385 1.72e-13 ***
-Learning_DisabilitiesYes             -0.853789   0.084750 -10.074  < 2e-16 ***
-Parental_Education_LevelHigh School  -0.485825   0.059841  -8.119 5.62e-16 ***
-Parental_Education_LevelPostgraduate  0.502745   0.074655   6.734 1.79e-11 ***
-Distance_from_HomeModerate            0.387933   0.094669   4.098 4.22e-05 ***
-Distance_from_HomeNear                0.907689   0.088773  10.225  < 2e-16 ***
-GenderMale                           -0.042151   0.052538  -0.802    0.422    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 ### To exlplain this outcome 
 
