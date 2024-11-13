@@ -1,5 +1,5 @@
 ## Student Performance
-## This project was on predicting what affects students performance in their final examination score.
+### This project was on predicting what affects students performance in their final examination score.
 
 ### In this prediction all the collected informaton were considered tonknow what affected about 6000 students performance in this examination. 
 
