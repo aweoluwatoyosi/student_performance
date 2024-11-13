@@ -33,7 +33,7 @@
 ### Explaining this model, we have 
 #### Multiple R-squared as 0.7217, meaning approximately 72.17% of the variance in the exam scores is explained by the independent variables included in the model.
 #### Adjusted R-squared is 0.7205, a slightly adjusted version of R-squared that accounts for the number of predictors, suggesting that the model is still a good fit even after adjusting for complexity.
-#### F-statistic: 609.8 with a very small p-value (< 2.2e-16), indicating that the model is highly statistically significant less than .05
+#### F-statistic: 609.8 with a very small p-value (< 2.2e-16), indicating that the model is highly statistically significant.
 
 ### The significant Positive Predictors:
 #### Hours_Studied: 0.2949 - strong positive relationship with exam scores, meaning that the more time spent studying the better the performance of the student.
@@ -43,23 +43,23 @@
 #### Internet_AccessYes: 0.9247 - when they have access to the internet is has a positive impact on exam performance as they can do more research outside of school activities.
 #### Tutoring_Sessions: 0.4982 - the students who attend tutoring sessions tend to perform better in the exams. They have the opportunity of tutors explaning complex school work to them.
 #### Peer_InfluencePositive: 1.0270 - the students who have positive peer influence leads to higher exam scores. Their peers could encourage them to study more for better grades.
-#### Peer_InfluenceNeutral: 0.5223 - 
+#### Peer_InfluenceNeutral: 0.5223 - this was also significant, it means that having friends or not you would still perform better in your exam scores.
 #### Physical_Activity: 0.1867 - when students engage in physical activity it is associated with better exam performance for them. Exercising or encaging in physical activities helps to keep the brain active.
 #### Distance_from_HomeNear: 0.9077 the students who live closer to school perform better as they do no  have to travel far and might not encounter too much traffic or none at all and can meet up with classes in case of unforeseen circumstances.
-#### Parental_Education_LevelPostgraduate: 0.5027 -  
-#### Distance_from_HomeModerate: 0.3879
+#### Parental_Education_LevelPostgraduate: 0.5027 -  If the parents have a postgraduate degree they could help impact the students wheather with tutoring them or otherwise.
+#### Distance_from_HomeModerate: 0.3879 - If the distance from home to school is not too far, the students could quickly meeting up with school early enough.
 
 ### Significant Negative Predictors:
-#### Parental_InvolvementLow: -1.9829 - low and medium parental involvement is strongly associated with lower exam scores. The parents who earn low might not be able to pay the fees of their child or children which would make them miss classes. 
-#### Parental_InvolvementMedium: -1.0624 -
-#### Access_to_ResourcesLow: -2.0633 - low and medium access to resources is a significant negative predictor of exam scores, because they might ot be able to gather the information they need at that point in time.
-#### Access_to_ResourcesMedium: -1.0096 -
-#### Motivation_LevelLow: -1.0620 - low and medium motivation decreases exam scores because the student would not study enough as they have not enough motivation to study thier school work.
-#### Motivation_LevelMedium: -1.0620 -
-#### Family_IncomeLow: -1.0856 - The families that have low or medium income leads to lower exam scores as they might want to put thr income they get into other things they consider as priority.
-#### Family_IncomeMedium: -0.5906
+#### Parental_InvolvementLow: -1.9829 - low parental involvement is strongly associated with lower exam scores. The parents who earn low might not be able to pay the fees of their child or children which would make them miss classes. 
+#### Parental_InvolvementMedium: -1.0624 - Parents getting involved on medium means the involvement is not complete, leading to the students not performing better.
+#### Access_to_ResourcesLow: -2.0633 - low access to resources is a significant negative predictor of exam scores, because they might ot be able to gather the information they need at that point in time.
+#### Access_to_ResourcesMedium: -1.0096 - medium access to resources is not good enough for students performance, as they will not have this access as soon as they need to use it.
+#### Motivation_LevelLow: -1.0620 - low motivation decreases exam scores because the student would not study enough as they have not enough motivation to study thier school work.
+#### Motivation_LevelMedium: -1.0620 - medium motivational level is not good enough as this does not get the student immersed enough as they should be when studying for exams.
+#### Family_IncomeLow: -1.0856 - The families that have low income leads to lower exam scores as they might want to put the income they get into other things they consider as priority.
+#### Family_IncomeMedium: -0.5906 - medium family income has significant negative impact, imagine a family with a lot of children, they will not be able to get the chance to adequately provide for each child's well being
 #### Teacher_QualityLow: -1.0575 - low teacher quality negatively impacts student performance as the teacher does not have the necessary educational degree to teach a course so they have nothing significant enough to pass on.
-#### Teacher_QualityMedium:  -0.5490
+#### Teacher_QualityMedium:  -0.5490 - medium teacher quality is not good enough for students to perform better in their exams.
 #### Learning_DisabilitiesYes: -0.8538 - The students with learning disabilities tend to score lower because they would no be able to assimilate what they are taught by their teachers.
 #### Parental_Education_LevelHigh School: -0.4858 -The parennts with lower education levels are associated with poorer performance as they will not have a significant part in supporting their child's school education.
 
@@ -73,5 +73,6 @@
 #### Factors like hours studied, attendance, previous scores, internet access, peer influence and others have strong positive relationships with exam scores.
 #### Parental involvement, access to resources, family income have strong negative impacts, suggesting that lack of these resources or support systems significantly lowers performance of the students.
 #### Sleep, gender and school type(public) do not appear to be significant predictors of exam scores in this model.
-#### This analysis suggests that improving access to resources, increasing parental involvement, and providing academic support through tutoring and extracurricular activities can have a meaningful impact on students' exam performance.
+
+#### This analysis suggests that improving access to resources, increasing parental involvement, and providing academic support through tutoring and extracurricular activities can meaningfully impact students' exam performance.
 
