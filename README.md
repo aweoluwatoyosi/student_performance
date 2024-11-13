@@ -67,6 +67,8 @@ GenderMale                           -0.042151   0.052538  -0.802    0.422
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
+### To exlplain this outcome 
+
 Residual standard error: 2.069 on 6350 degrees of freedom
 Multiple R-squared:  0.7217,	Adjusted R-squared:  0.7205 
 F-statistic: 609.8 on 27 and 6350 DF,  p-value: < 2.2e-16
