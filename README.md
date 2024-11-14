@@ -1,31 +1,31 @@
 ## Student Performance
-### This project predicted what affected students' performance in their final examination scores.
+#### This project predicted what affected students' performance in their final examination scores.
 
-### In this prediction, all the collected information was considered to determine what affected about 6,000 students' performance in this examination. 
+#### In this prediction, all the collected information was considered to determine what affected about 6,000 students' performance in this examination. 
 
-### To start this I got my data from Kaggle [https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](url), I started by cleaning the dataset using R. I removed the rows with null values and checked to be sure they were empty(more details on this in the code).
-### First, I made a graph to check where the majority of the range of scores was by plotting a density graph. This showed that the scores of most students fell. Below is a picture.
+#### To start this I got my data from Kaggle [https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](url), I started by cleaning the dataset using R. I removed the rows with null values and checked to be sure they were empty(more details on this in the code).
+#### First, I made a graph to check where the majority of the range of scores was by plotting a density graph. This showed that the scores of most students fell. Below is a picture.
 
 ![image](https://github.com/user-attachments/assets/af0ad82b-3cd1-4c6b-a28c-82d36953af3c)
-### This showed that most students' Exam scores ranged between 58-80.
+#### This showed that most students' Exam scores ranged between 58-80.
 
-### I went on to plot a histogram to show a more in-depth distribution, which clarified where the scores fell. 
+#### I went on to plot a histogram to show a more in-depth distribution, which clarified where the scores fell. 
 
 ![image](https://github.com/user-attachments/assets/47df2ea8-1a75-4ebd-a4dc-54b439a8e3e1)
 
-### I also plotted the distribution in a 2D histogram, which helped to show how the scores were distributed across the board.
+#### I also plotted the distribution in a 2D histogram, which helped to show how the scores were distributed across the board.
 ![image](https://github.com/user-attachments/assets/cb3026e9-3a4b-4c06-8f18-af83d90eeddc)
 
-### One of the fields gathered in the data was the level of parental involvement for each student. It was in different categories like High, Low and Medium. High means the level of involvement could be from 8-10 if there was a range of 1-10. Low could be from 0-3, and medium could be from 5 more or less. It showed that parents with a "medium" level of involvement were the highest, but this did not mean the students did the best. High follows it as the second level of involvement, followed by medium. Here is a graph showing the explanations. 
+#### One of the fields gathered in the data was the level of parental involvement for each student. It was in different categories like High, Low and Medium. High means the level of involvement could be from 8-10 if there was a range of 1-10. Low could be from 0-3, and medium could be from 5 more or less. It showed that parents with a "medium" level of involvement were the highest, but this did not mean the students did the best. High follows it as the second level of involvement, followed by medium. Here is a graph showing the explanations. 
 
 ![image](https://github.com/user-attachments/assets/fa6ddcfd-ab4a-4f00-bcb6-594a3dd8cd31)
 
-### High could be the parents attended everything involved with the student's school and education, having personal time with them, reading with them during exams and not missing anything about their child. The medium level of involvement would be less than what the high level of involvement provides, and the low could be showing up for one or not showing up for the child at all; it could also involve not knowing what they learn in school or knowing their teacher in this case. 
+#### High could be the parents attended everything involved with the student's school and education, having personal time with them, reading with them during exams and not missing anything about their child. The medium level of involvement would be less than what the high level of involvement provides, and the low could be showing up for one or not showing up for the child at all; it could also involve not knowing what they learn in school or knowing their teacher in this case. 
 
 
-### Before starting my prediction, I converted all the data types answered using categorical values of 'Yes' or 'No' and 'High', 'Low' or 'Medium' to factors. I also considered all the data collected to make this prediction. The values used to predict the Exam score outcome were hours studied, attendance, parental involvement, access to resources, sleep hours, previous scores, internet access, tutoring session, family income, teacher quality, school type, peer influence, physical activities, learning disabilities, parental education, distance from school and gender. 
+#### Before starting my prediction, I converted all the data types answered using categorical values of 'Yes' or 'No' and 'High', 'Low' or 'Medium' to factors. I also considered all the data collected to make this prediction. The values used to predict the Exam score outcome were hours studied, attendance, parental involvement, access to resources, sleep hours, previous scores, internet access, tutoring session, family income, teacher quality, school type, peer influence, physical activities, learning disabilities, parental education, distance from school and gender. 
 
-### I used a linear regression model to predict the Exam score outcome; below is the model's predictive outcome summary. More details are explained after the result.
+#### I used a linear regression model to predict the Exam score outcome; below is the model's predictive outcome summary. More details are explained after the result.
 
 ![image](https://github.com/user-attachments/assets/38bdc6d7-2a4d-4d72-9374-8020d73d89c2)
 ![image](https://github.com/user-attachments/assets/f4281943-c0aa-4c50-be72-27d11bb145be)
