@@ -35,17 +35,6 @@ stugeom <- ggplot(student2, aes(x = Exam_Score, y = Attendance)) +
 
 stugeom
 
-library(hexbin)
-
-stuhex <- ggplot(student2, aes(x = Exam_Score, y = Attendance)) +
-  geom_hex(bins = 30) +  # Adjust bins as needed
-  scale_fill_gradient(low = "lightblue", high = "darkblue") +
-  labs(title = "Hexbin Plot of Exam Score vs Attendance", x = "Exam_Score", y = "Attendance") +
-  theme_minimal()
-
-stuhex
-
-
 stufacet <- ggplot(student2, aes(x = Exam_Score)) + 
   geom_histogram(binwidth = 2, fill = "lightblue") + 
   facet_wrap(~ Parental_Involvement) + 
