@@ -76,3 +76,11 @@
 
 #### This analysis suggests that improving access to resources, increasing parental involvement, and providing academic support through tutoring and extracurricular activities can impact students' exam performance meaningfully.
 
+#### After checking the summary, I went further to plot the model to check for linear regression assumptions the linearity, homoscedasticity, normality of residuals
+![image](https://github.com/user-attachments/assets/85e0aed6-1acf-4902-b3d0-de750e64855e)
+
+![image](https://github.com/user-attachments/assets/23ed3d83-5850-497d-bbb3-613f786937e1)
+
+![image](https://github.com/user-attachments/assets/4cb63f75-da9a-4245-9b7e-341b193e2ca6)
+
+![image](https://github.com/user-attachments/assets/f2d7eb62-0226-4313-bff5-d7263468215b)
