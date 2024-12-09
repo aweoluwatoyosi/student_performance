@@ -1,5 +1,5 @@
 ## Student Performance
-#### This project predicted what affected students' performance in their final examination scores.
+#### This project predicted what affected students' performance in their final examination scores.I used the linear regression model for this prediction.
 
 #### In this prediction, all the collected information was considered to determine what affected about 6,000 students' performance in this examination. 
 
