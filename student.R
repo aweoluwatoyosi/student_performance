@@ -66,3 +66,4 @@ model <- lm(Exam_Score ~ . , data = student2)
 # Summary of the model
 summary(model)
 
+plot(model)
